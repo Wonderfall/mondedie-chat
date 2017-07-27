@@ -30,7 +30,7 @@ $(function() {
           title: 'lien image-lutim',
           //icon: 'fa fa-external-link',
           callback: function() {
-            window.open('https://images.targaryen.house', '_blank');
+            window.open('https://img.targaryen.house', '_blank');
           }
         },{
           name: 'linkPaste',
