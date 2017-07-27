@@ -8,7 +8,7 @@ $(function(){
    */
   Visibility.change(function (e, state) {
     if(state === 'visible')
-      document.title = 'Mondedie-chat - Chatroom';
+      document.title = 'Nootropique Zone - Chatroom';
   });
 
 });

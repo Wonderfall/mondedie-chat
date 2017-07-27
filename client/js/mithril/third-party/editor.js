@@ -30,7 +30,7 @@ $(function() {
           title: 'lien image-lutim',
           //icon: 'fa fa-external-link',
           callback: function() {
-            window.open('https://images.mondedie.fr', '_blank');
+            window.open('https://images.targaryen.house', '_blank');
           }
         },{
           name: 'linkPaste',
@@ -39,7 +39,7 @@ $(function() {
           title: 'lien privatebin',
           //icon: 'fa fa-external-link',
           callback: function() {
-            window.open('https://paste.mondedie.fr', '_blank');
+            window.open('https://paste.targaryen.house', '_blank');
           }
         }]
       }]

@@ -27,7 +27,7 @@ router.post('/login', function(req, res, next) {
     req.checkBody('password', "Valeur invalide").notEmpty();
 
     if(req.validationErrors(true)) {
-      settings.formMessage = 'Veuillez saisir vos identifiants mondedie.fr';
+      settings.formMessage = 'Veuillez saisir vos identifiants nootropique.zone';
       return res.render('login', settings);
     }
 

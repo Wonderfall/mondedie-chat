@@ -85,7 +85,7 @@ messages.vm = (function() {
   vm.notification = function(message) {
     var Notify = window.Notify.default;
     if(!Notify.needsPermission) {
-      var notification = new Notify('Mondedie::chat', {
+      var notification = new Notify('NootropiqueZone::chat', {
         body:message,
         icon:'/images/favicon.png',
         timeout:10

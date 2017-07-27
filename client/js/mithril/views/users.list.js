@@ -26,7 +26,7 @@ users.view = function() {
             class: 'pseudo',
             style: {color: user.color()},
             target: '_blank',
-            href: 'https://mondedie.fr/u/' + user.name()
+            href: 'https://nootropique.zone/u/' + user.name()
           }, user.name())
         ])
       })

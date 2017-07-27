@@ -15,7 +15,7 @@ session.settings = function(req, res, options, callback) {
 
   var settings = {
     path:req.path,
-    title:"Mondedie-chat - ",
+    title:"Nootropique Zone Chat - ",
     isLogged:isLogged
   };
 
