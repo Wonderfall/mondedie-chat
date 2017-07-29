@@ -223,21 +223,21 @@ socket.init = function(io) {
         users.getUserSocket(username)
         .then(function() {
           var message, storage;
-          var lucky = getRandomInt({ emax:200 });
+          var lucky = getRandomInt({ emax:6000 });
           switch(lucky) {
             case 0:
-              message = 'Mouhahaha :evil:';
+              message = 'Bon, tu me fais pitié, je veux bien le kick !';
               storage = true;
               banUser(io, socket.id, username);
               break;
-            case 199:
-              message = 'Dommage, le trolleur trollé :D';
+            case 5999:
+              message = 'Tu vas arrêter de faire le con, oui ?';
               storage = true;
               banUser(io, socket.id, session.user.name);
               break;
             default:
               storage = false;
-              message = '... la tentative a échoué, peut-être une autre fois :3';
+              message = 'La tentative a échoué, peut-être une autre fois, maintenant dégage. :hap:';
               break;
           }
           addBotMessage(io, "Quelqu'un a tenté un roll " + username + "...", { storage:storage });
